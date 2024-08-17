@@ -1,4 +1,4 @@
-def validate_book_data(data):
+def validate_book_data(data: dict) -> bool:
     """Проверяет, что данные книги корректны."""
     required_fields = ['title', 'author', 'genre']
     for field in required_fields:
